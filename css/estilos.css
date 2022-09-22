@@ -1,0 +1,37 @@
+/* PROBANDO CSS */
+
+/* SELECTORES DE ETIQUETAS HTML */
+
+body{
+    background-color: #cadffb;
+}
+
+h1{
+    background-color: #1465bb;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+
+/* p {
+    color:black;
+    background-color:#53d4ff;
+    font-size: 20px;
+} */
+
+/* SELECTORES PERSONALIZADOS*/
+.destacado {
+    color:black;
+    background-color:#53d4ff;
+    font-size: 20px;
+}
+
+.subtitulo {
+    color:#0404e2;
+    font-size: 60px;
+}
+
+.contenedor { 
+
+}
