@@ -32,6 +32,30 @@ h1{
     font-size: 60px;
 }
 
-.contenedor { 
+.contenedor {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    background-color: white;
+}
 
+.encabezado {
+    border: 6px solid #666666;
+
+}
+
+.cuerpo1 {
+    color: white ;
+    background-color:#eff6fc;
+}
+
+.cuerpo2 {
+    padding: 20px;
+}
+
+.pie {
+    color: white;
+    background-color:#666666;
+    font-size: 24px;
+    text-align: center;
+    padding: 50px;
 }
