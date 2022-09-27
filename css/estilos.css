@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
 body,h1,ul {
     margin: 0;
 }
@@ -7,6 +10,8 @@ body,h1,ul {
 
 body{
     background-color: #cadffb;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
 h1{
@@ -14,8 +19,18 @@ h1{
     font-size: 40px;
     color: white;
     text-align: center;
+    
 }
 
+h2, h3, h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: red;
+}
+
+p{
+    font-size: 14px;
+}
 
 /* p {
     color:black;
@@ -31,8 +46,9 @@ h1{
 }
 
 .subtitulo {
-    color:#0404e2;
+    color:red;
     font-size: 60px;
+    text-shadow: white;
 }
 
 .contenedor {
@@ -42,13 +58,14 @@ h1{
 }
 
 .encabezado {
-    border: 6px solid #666666;
+    border: 6px solid #666666
 
 }
 
 .cuerpo1 {
     color: white ;
     background-color:#eff6fc;
+    text-align: center;
 }
 
 .cuerpo2 {
@@ -64,7 +81,7 @@ h1{
 }
 
 .menu {
-    background-color: #1465bb;
+    background-color: #00346c;
 }
 .menu ul {
     list-style: none;
@@ -79,9 +96,30 @@ h1{
     text-decoration: none;
 }
 .menu a:hover {
-    color: red;
+    color: blue;
 }
 .menu li:hover {
     background-color: aqua;
     border-radius: 15px;
     }
+
+.cuerpo1{
+    border: 1px solid blueviolet;
+    background-image: url(../img/Joyas.png.webp);
+    background-size: 100%;
+    width: 100%;
+}
+
+.centrar{
+    display: block;
+    margin: auto;
+}
+
+.cajaimg {
+    width: 50%;
+    margin: auto;
+}
+
+.adaptable {
+    width: 100%;
+}
