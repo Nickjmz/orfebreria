@@ -116,16 +116,76 @@ p{
     padding: 10px;
         }
 .menu a {
-    color: white;
+    color: #6c5d00;
     text-decoration: none;
+    font-weight: bold;
 }
 .menu a:hover {
-    color: white;
+    color: #6c5d00;
 }
-.menu li:hover {
+/*.menu li:hover {
     background-color: #6c5d00;
     border-radius: 15px;
     }
+*/
+    .b1{
+        padding: 15px 25px;
+        margin: 20px;
+        font-size: 16px;
+        border: 2px solid #fffb00;
+        color: white;
+        cursor: pointer; 
+        background: linear-gradient(to right, transparent 50%, #fffb00 50%);
+        background-size: 200%;
+        background-position: left;
+        transition: background-position 0.5s;
+    }
+    
+    .b1:hover {
+        background-position: right;
+        color: black;
+        font-weight: 700;
+    }
+
+    .b2{
+        padding: 15px 25px;
+        margin: 20px;
+        font-size: 16px;
+        border: 2px solid #fffb00;
+        color: white;
+        cursor: pointer; 
+        background: linear-gradient(to right, transparent 50%, #fffb00 50%);
+        background-size: 200%;
+        background-position: left;
+        transition: background-position 0.5s;
+    }
+    
+    .b2:hover {
+        background-position: right;
+        color: black;
+        font-weight: 700;
+    }
+
+    .b3 {
+        padding: 15px 25px;
+        margin: 20px;
+        font-size: 16px;
+        border: 2px solid #fffb00;
+        color: white;
+        cursor: pointer; 
+        background: linear-gradient(to right, transparent 50%, #fffb00 50%);
+        background-size: 200%;
+        background-position: left;
+        transition: background-position 0.5s;
+    }
+    
+    .b3:hover {
+        background-position: right;
+        color: black;
+        font-weight: 700;
+    }
+
+
 
 .cuerpo1{
     border: 1px solid rgb(0, 0, 0);
@@ -146,5 +206,30 @@ p{
 
 .adaptable {
     width: 100%;
+}
+
+.botonvolver{
+    padding: 15px 25px;
+    margin: 20px;
+    font-size: 16px;
+    border: 2px solid #fffb00;
+    color: white;
+    cursor: pointer; 
+    background: linear-gradient(to right, transparent 50%, #fffb00 50%);
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.5s;
+}
+
+.botonvolver:hover {
+    background-position: right;
+    color: black;
+    font-weight: 700;
+}
+
+.fuente:hover {
+    background-color: #ffdd00;
+    border-radius: 15px;
+    width: auto;
 }
 
