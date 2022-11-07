@@ -22,11 +22,15 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 h1{
-    background-color: #664300;
+    background-color:
     font-size: 80px;
     color: white;
     text-align: center;
     font-family: 'Great Vibes', cursive;
+    background: -webkit-linear-gradient(top,  #eab92d 0%,#c79810 100%); 
+    background: linear-gradient(to bottom,  #eab92d 0%,#c79810 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eab92d', endColorstr='#c79810',GradientType=0 ); /* IE6-9 */
+
 }
 
 h2, h3, h4{
